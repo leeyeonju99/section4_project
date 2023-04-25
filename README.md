@@ -1,5 +1,5 @@
 # section4_project
-
+<pre><code>
 import glob
  
 val_img_list = glob.glob('/content/valid/*')
@@ -17,3 +17,4 @@ val_img_path = val_img_list[2]
  #이미지로 저장
  
 Image(os.path.join('/content/yolov5/runs/detect/exp', os.path.basename(val_img_path)))
+ </code></pre>
